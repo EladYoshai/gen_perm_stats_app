@@ -18,6 +18,7 @@ df = pd.DataFrame(columns=['File Name', 'Grading', 'Cytoplasma', 'Capliraity'])
 
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+server = app.server 
 
 # List to hold image paths
 image_paths = []
