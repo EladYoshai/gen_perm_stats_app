@@ -101,7 +101,7 @@ def handle_images(load_n_clicks, next_n_clicks, prev_n_clicks, grading_val,
     elif ctx.triggered_id == 'submit-btn':
         new_row = {'File Name': image_paths[index], 'Grading': str(grading_val), 'Cytoplasma': str(cytoplasma_val), 'Capliraity': str(capilarity_val)}
         df = df._append(new_row, ignore_index=True)
-        df.to_excel('results.xlsx', index=False)
+        # df.to_excel('results.xlsx', index=False)
         return Image.open(image_paths[index]), False, False
     else:
         raise PreventUpdate
