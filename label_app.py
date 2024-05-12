@@ -12,7 +12,7 @@ from dash.exceptions import PreventUpdate
 import dash_bootstrap_components as dbc
 import pandas as pd
 
-PIL.Image.MAX_IMAGE_PIXELS = None
+# PIL.Image.MAX_IMAGE_PIXELS = None
 global df
 df = pd.DataFrame(columns=['File Name', 'Grading', 'Cytoplasma', 'Capliraity'])
 
