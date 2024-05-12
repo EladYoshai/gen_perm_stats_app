@@ -1,6 +1,6 @@
 dash
 dash-bootstrap-components
+dash_bootstrap_components 
 Pillow
 pandas
-plotly
 guincorn
