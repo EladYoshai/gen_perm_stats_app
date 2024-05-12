@@ -2,4 +2,4 @@ dash
 dash-bootstrap-components
 Pillow
 pandas
-guincorn
+gunicorn
