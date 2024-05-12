@@ -1,5 +1,5 @@
-import os
-import PIL.Image
+# import os
+# import PIL.Image
 from PIL import Image
 import dash
 from dash import dcc, ctx, html
@@ -7,7 +7,6 @@ import os
 from PIL import Image
 import dash
 from dash.dependencies import Input, Output, State
-import plotly.express as px
 from dash.exceptions import PreventUpdate
 import dash_bootstrap_components as dbc
 import pandas as pd
