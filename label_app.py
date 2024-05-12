@@ -107,5 +107,5 @@ def handle_images(load_n_clicks, next_n_clicks, prev_n_clicks, grading_val,
         raise PreventUpdate
 
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
